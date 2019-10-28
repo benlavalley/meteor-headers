@@ -4,11 +4,14 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-insecure
+insecure@1.0.7
 gadicohen:headers
 meteorhacks:inject-initial
 gadicohen:syntaxhighlighter@3.0.83-17
 mrt:sp-marked
-appcache
+appcache@1.2.2
 
-standard-minifiers
+standard-minifier-css
+standard-minifier-js
+shell-server
+dynamic-import
