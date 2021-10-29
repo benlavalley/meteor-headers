@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('1.8.1');
+	api.versionsFrom('2.5');
 	api.use(['ejson', 'ecmascript'], ['server', 'client']);
 	api.use(['webapp', 'livedata', 'tracker', 'check', 'underscore'], ['client', 'server']);
 	api.mainModule('lib/headers-common.js', ['server', 'client']);
